@@ -12,9 +12,9 @@ export default function Home() {
     };
 
     const click204 = async () => {
-        setLoading(true);
+        setLoading2(true);
         const res = await axios('/api/hello2');
-        setLoading(false);
+        setLoading2(false);
     };
 
     return (
